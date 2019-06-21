@@ -1,11 +1,11 @@
 module.exports = [
     {
-        name: 'my_section',
+        name: 'special-offer',
         storeName: {
-            en_GB: "My first section"
+            en_GB: "Pop-up - Special offer"
         },
         storeDesc: {
-            en_GB: "Template for my first section"
+            en_GB: "Pop-up - Special offer"
         }
     }
 ]
