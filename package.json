@@ -4,9 +4,9 @@
     "wewebPublic": "true",
     "repository": {
         "type": "git",
-        "url": "https://github.com/WeWeb-Public/wwSection"
+        "url": "https://github.com/WeWeb-Public/popup-hover"
     },
-    "version": "0.0.1",
+    "version": "0.0.3",
     "private": true,
     "scripts": {
         "build": "weweb-build",
