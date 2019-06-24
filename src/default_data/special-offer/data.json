@@ -1,14 +1,14 @@
 {
     "name": "template",
     "helloWorld": {
-        "uniqueId": 2833119426,
+        "uniqueId": 8599377735,
         "wwVersion": 3,
         "content": {
             "type": "ww-text",
             "data": {
                 "text": {
-                    "fr": "Hello World FR !",
-                    "en": "Hello World !"
+                    "en": "Hello World FR!",
+                    "fr": "Hello World FR !"
                 },
                 "tag": "div",
                 "align": "",
@@ -45,7 +45,7 @@
         "anim": {}
     },
     "color": {
-        "uniqueId": 1411199322,
+        "uniqueId": 5118220165,
         "wwVersion": 3,
         "content": {
             "type": "ww-color",
@@ -94,7 +94,7 @@
         "anim": {}
     },
     "image1": {
-        "uniqueId": 9073421543,
+        "uniqueId": 11340445307,
         "wwVersion": 3,
         "content": {
             "type": "ww-particles",
@@ -128,7 +128,7 @@
     },
     "list": [
         {
-            "uniqueId": 4986422407,
+            "uniqueId": 15445130672,
             "wwVersion": 3,
             "content": {
                 "type": "ww-image",
@@ -212,12 +212,13 @@
             "anim": {}
         },
         {
-            "uniqueId": 1995654802,
+            "uniqueId": 6874211849,
             "wwVersion": 3,
             "content": {
                 "type": "ww-text",
                 "data": {
                     "text": {
+                        "en": "<div style=\"text-align: center;\"> <span style=\"text-align: initial;\"><span style=\"font-size:2.5rem\">Enjoy!</span></span> </div>",
                         "fr": "<div style=\"text-align: center;\"><span style=\"text-align: initial;\"><span style=\"font-size:2.5rem\">Profitez-en !</span></span></div>"
                     },
                     "tag": "div",
@@ -265,12 +266,13 @@
             "anim": {}
         },
         {
-            "uniqueId": 4903710387,
+            "uniqueId": 15208212838,
             "wwVersion": 3,
             "content": {
                 "type": "ww-text",
                 "data": {
                     "text": {
+                        "en": "<div style=\"text-align: center;\"> <span style=\"text-align: initial;\">Special offer on bathrobes -25% today on all the collection</span> </div>",
                         "fr": "<div style=\"text-align: center;\"><span style=\"text-align: initial;\">Offre spéciale sur les peignoirs -25% aujourd’hui sur toute la collection</span></div>"
                     },
                     "tag": "div",
@@ -308,27 +310,27 @@
             "anim": {}
         },
         {
-            "uniqueId": 1148012987,
+            "uniqueId": 10913068095,
             "wwVersion": 3,
             "content": {
                 "type": "ww-row",
                 "data": {
                     "wwObjects": [
                         {
-                            "uniqueId": 4142931080,
+                            "uniqueId": 11751142035,
                             "wwVersion": 3,
                             "content": {
                                 "type": "ww-button",
                                 "data": {
                                     "text": {
-                                        "uniqueId": 773960941,
+                                        "uniqueId": 8080900209,
                                         "wwVersion": 3,
                                         "content": {
                                             "type": "ww-text",
                                             "data": {
                                                 "text": {
-                                                    "fr": "[[wwObject=0]]&nbsp; Découvrir",
-                                                    "en": "New button"
+                                                    "en": "[[wwObject=0]] Discover",
+                                                    "fr": "[[wwObject=0]]&nbsp; Découvrir"
                                                 },
                                                 "tag": "div",
                                                 "align": "",
@@ -364,7 +366,7 @@
                                         "data": {
                                             "children": [
                                                 {
-                                                    "uniqueId": 4904700674,
+                                                    "uniqueId": 5948194776,
                                                     "wwVersion": 3,
                                                     "content": {
                                                         "type": "ww-icon",
@@ -465,20 +467,20 @@
                             "anim": {}
                         },
                         {
-                            "uniqueId": 5851138330,
+                            "uniqueId": 1580131157,
                             "wwVersion": 3,
                             "content": {
                                 "type": "ww-button",
                                 "data": {
                                     "text": {
-                                        "uniqueId": 15096149377,
+                                        "uniqueId": 10611094236,
                                         "wwVersion": 3,
                                         "content": {
                                             "type": "ww-text",
                                             "data": {
                                                 "text": {
-                                                    "fr": "[[wwObject=0]]&nbsp; Commander",
-                                                    "en": "New button"
+                                                    "en": "[[wwObject=0]] Order",
+                                                    "fr": "[[wwObject=0]]&nbsp; Commander"
                                                 },
                                                 "tag": "div",
                                                 "align": "",
@@ -514,7 +516,7 @@
                                         "data": {
                                             "children": [
                                                 {
-                                                    "uniqueId": 5131307958,
+                                                    "uniqueId": 15293411486,
                                                     "wwVersion": 3,
                                                     "content": {
                                                         "type": "ww-icon",
@@ -646,7 +648,7 @@
         }
     ],
     "background": {
-        "uniqueId": 10500123207,
+        "uniqueId": 6287442387,
         "wwVersion": 3,
         "content": {
             "type": "ww-color",
@@ -694,7 +696,7 @@
         "anim": {}
     },
     "close": {
-        "uniqueId": 10165346674,
+        "uniqueId": 3392170280,
         "wwVersion": 3,
         "content": {
             "type": "ww-icon",
@@ -746,12 +748,13 @@
         "anim": {}
     },
     "closeText": {
-        "uniqueId": 8364279883,
+        "uniqueId": 12234666363,
         "wwVersion": 3,
         "content": {
             "type": "ww-text",
             "data": {
                 "text": {
+                    "en": "<div style=\"text-align: center;\"> <span style=\"text-align: initial;\">Later</span> </div>",
                     "fr": "<div style=\"text-align: center;\"><span style=\"text-align: initial;\">Plus tard</span></div>"
                 },
                 "tag": "div",

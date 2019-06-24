@@ -48,17 +48,15 @@ export default {
         }
     },
     created() {
-        this.toggleBodyClass(false, 'overflow-hidden')
         this.init()
 
     },
     mounted() {
         const alreadySeen = this.$cookies.get('popup-hover-closed') || false;
-        console.log('mode', this.sectionCtrl.getEditMode())
-        if (this.editMode) {
+        if (wwLib.manager) {
             this.tictacBeforeDisplay()
 
-        } else if (!alreadySeen || false) {
+        } else if (!alreadySeen) {
             this.tictacBeforeDisplay()
         }
     },
@@ -111,7 +109,6 @@ export default {
             }
         },
         tictacBeforeDisplay() {
-            console.log('tick tack')
             setTimeout(() => {
                 this.display = true;
                 this.toggleBodyClass(true, 'overflow-hidden');
@@ -127,6 +124,8 @@ export default {
         },
         close() {
             if (this.editMode) return;
+            // reactivate body scroll
+            this.toggleBodyClass(false, 'overflow-hidden');
             this.display = false;
             // Remove cookie
             this.$cookies.remove('popup-hover-closed');
