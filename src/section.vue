@@ -57,8 +57,8 @@ export default {
             this.tictacBeforeDisplay()
 
         } else if (!alreadySeen) {
-            this.tictacBeforeDisplay()
             this.addCookie()
+            this.tictacBeforeDisplay()
         }
     },
     destroyed() {
@@ -117,7 +117,7 @@ export default {
         },
         addCookie() {
             // Remove cookie
-            this.$cookies.remove('popup-hover-closed');
+            // this.$cookies.remove('popup-hover-closed');
             // Set in cookies the isCookieAgreed for 24h
             var in24h = new Date();
             in24h.setDate(in24h.getDate() + 1);
