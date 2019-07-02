@@ -58,6 +58,7 @@ export default {
 
         } else if (!alreadySeen) {
             this.tictacBeforeDisplay()
+            this.addCookie()
         }
     },
     destroyed() {
@@ -114,6 +115,14 @@ export default {
                 this.toggleBodyClass(true, 'overflow-hidden');
             }, this.section.data.timeBeforeDisplaying * 1000);
         },
+        addCookie() {
+            // Remove cookie
+            this.$cookies.remove('popup-hover-closed');
+            // Set in cookies the isCookieAgreed for 24h
+            var in24h = new Date();
+            in24h.setDate(in24h.getDate() + 1);
+            this.$cookies.set('popup-hover-closed', true, { 'expires': in24h, path: '/' });
+        },
         toggleBodyClass(add, className) {
             const el = document.documentElement;
             if (add) {
@@ -127,12 +136,6 @@ export default {
             // reactivate body scroll
             this.toggleBodyClass(false, 'overflow-hidden');
             this.display = false;
-            // Remove cookie
-            this.$cookies.remove('popup-hover-closed');
-            // Set in cookies the isCookieAgreed for 24h
-            var in24h = new Date();
-            in24h.setDate(in24h.getDate() + 1);
-            this.$cookies.set('popup-hover-closed', true, { 'expires': in24h, path: '/' });
         },
         /* wwManager:start */
         add(list, options) {
