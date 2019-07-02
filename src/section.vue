@@ -57,7 +57,6 @@ export default {
             this.tictacBeforeDisplay()
 
         } else if (!alreadySeen) {
-            this.addCookie()
             this.tictacBeforeDisplay()
         }
     },
@@ -111,6 +110,7 @@ export default {
         },
         tictacBeforeDisplay() {
             setTimeout(() => {
+                this.addCookie()
                 this.display = true;
                 this.toggleBodyClass(true, 'overflow-hidden');
             }, this.section.data.timeBeforeDisplaying * 1000);
