@@ -5,13 +5,13 @@
 <!-- This is your HTML -->
 <template>
     <div v-if="display" class="popup-hover">
-        <!-- wwManager:start -->
-        <wwSectionEditMenu v-bind:sectionCtrl="sectionCtrl" :options="openOptions"></wwSectionEditMenu>
-        <!-- wwManager:end -->
         <!-- Weweb Wallpaper -->
         <wwObject class="background" v-bind:ww-object="section.data.color" ww-category="background"></wwObject>
 
         <div class="popup-container">
+            <!-- wwManager:start -->
+            <wwSectionEditMenu v-bind:sectionCtrl="sectionCtrl" :options="openOptions" smaal ></wwSectionEditMenu>
+            <!-- wwManager:end -->
             <wwObject class="background" v-bind:ww-object="section.data.background" ww-category="background"></wwObject>
             <wwObject class="close" v-bind:ww-object="section.data.close" @click="close"></wwObject>
             <wwLayoutColumn tag="div" ww-default="ww-text" :ww-list="section.data.list" class="list" @ww-add="add(section.data.list, $event)" @ww-remove="remove(section.data.list, $event)">
